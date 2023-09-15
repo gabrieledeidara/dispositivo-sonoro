@@ -23,7 +23,7 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eecd9c 0%,#f5bcbc 100%);
+  background: linear-gradient(to bottom, #eecd9c 0%,#fdb8b8 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
