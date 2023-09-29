@@ -8,3 +8,7 @@ document.querySelector('.tecla_cade').onclick=function(){
     document.querySelector('.tecla_cade').onclick=tocaSomCade;
 }
 const listadeTeclas= document.querySelectorAll('.teecla');
+listadeTeclas[0].onclick= tocaSomCade
+while(){
+    
+}
