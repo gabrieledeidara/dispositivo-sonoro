@@ -1,5 +1,5 @@
 function tocaSomCade() {
-    document.querySelector('#som_tecla_cade')
+    document.querySelector('#som_tecla_cade').play;
 }
 document.querySelectorAll('.tecla');
 <button onclick="tocaSomCade()" class="tecla tecla_Cade">Cade</button>
@@ -10,5 +10,5 @@ document.querySelector('.tecla_cade').onclick=function(){
 const listadeTeclas= document.querySelectorAll('.teecla');
 listadeTeclas[0].onclick= tocaSomCade
 while(){
-    
+
 }
