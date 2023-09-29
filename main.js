@@ -1,5 +1,5 @@
 function tocaSomCade() {
-    document.querySelector('#som_tecla_cade').play;
+    document.querySelector('#som_tecla_cade').play();
 }
 document.querySelectorAll('.tecla');
 <button onclick="tocaSomCade()" class="tecla tecla_Cade">Cade</button>
