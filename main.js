@@ -50,7 +50,14 @@ function tocaSomPix() {
     document.querySelector('#som_tecla_pix').play();
 }
 //chamada ou invocação da função tocaSomPix ao clicar no botão
-document.querySelector('.tecla_pix').onclick = tocaSompix;
+document.querySelector('.tecla_pix').onclick = tocaSomPix;
+
+//Declaração/criação da função tocaSomLogo
+function tocaSomLogo() {
+    document.querySelector('#som_tecla_logo').play();
+}
+//chamada ou invocação da função tocaSomPix ao clicar no botão
+document.querySelector('.tecla_logo').onclick = tocaSomLogo;
 
 
 
