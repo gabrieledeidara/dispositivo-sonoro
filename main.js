@@ -9,5 +9,11 @@ document.querySelector('.tecla_cade').onclick = tocaSomCade;
 function tocaSomIsso() {
     document.querySelector('#som_tecla_isso').play();
 }
-//chamada ou invocação da função tocaSomIsso ao clicar no botão
-document.querySelector('.tecla_isso').onclick = tocaSomIsso;
+//chamada ou invocação da função tocaSomComo ao clicar no botão
+document.querySelector('.tecla_como').onclick = tocaSomComo;
+//Declaração/criação da função tocaSomComo
+function tocaSomComo() {
+    document.querySelector('#som_tecla_como').play();
+}
+//chamada ou invocação da função tocaSomComo ao clicar no botão
+document.querySelector('.tecla_como').onclick = tocaSomComo;
