@@ -11,6 +11,7 @@ function tocaSomIsso() {
 }
 //chamada ou invocação da função tocaSomComo ao clicar no botão
 document.querySelector('.tecla_como').onclick = tocaSomComo;
+
 //Declaração/criação da função tocaSomComo
 function tocaSomComo() {
     document.querySelector('#som_tecla_como').play();
@@ -22,3 +23,11 @@ function tocaSomErrei() {
 }
 //chamada ou invocação da função tocaSomErrei ao clicar no botão
 document.querySelector('.tecla_errei').onclick = tocaSomErrei;
+
+//Declaração/criação da função tocaSomAcorda
+function tocaSomAcorda() {
+    document.querySelector('#som_tecla_acorda').play();
+}
+//chamada ou invocação da função tocaSomAcorda ao clicar no botão
+document.querySelector('.tecla_acorda').onclick = tocaSomAcorda;
+
