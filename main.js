@@ -31,3 +31,14 @@ function tocaSomAcorda() {
 //chamada ou invocação da função tocaSomAcorda ao clicar no botão
 document.querySelector('.tecla_acorda').onclick = tocaSomAcorda;
 
+//Declaração/criação da função tocaEle
+function tocaSomEle() {
+    document.querySelector('#som_tecla_ele').play();
+}
+//chamada ou invocação da função tocaSomEle ao clicar no botão
+document.querySelector('.tecla_ele').onclick = tocaSomEle;
+
+
+
+
+
