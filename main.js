@@ -38,6 +38,13 @@ function tocaSomEle() {
 //chamada ou invocação da função tocaSomEle ao clicar no botão
 document.querySelector('.tecla_ele').onclick = tocaSomEle;
 
+//Declaração/criação da função tocaKiko
+function tocaSomKiko() {
+    document.querySelector('#som_tecla_kiko').play();
+}
+//chamada ou invocação da função tocaSomKiko ao clicar no botão
+document.querySelector('.tecla_kiko').onclick = tocaSomKiko;
+
 
 
 
