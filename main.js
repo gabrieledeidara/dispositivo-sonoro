@@ -45,6 +45,14 @@ function tocaSomKiko() {
 //chamada ou invocação da função tocaSomKiko ao clicar no botão
 document.querySelector('.tecla_kiko').onclick = tocaSomKiko;
 
+//Declaração/criação da função tocaSomPix
+function tocaSomPix() {
+    document.querySelector('#som_tecla_pix').play();
+}
+//chamada ou invocação da função tocaSomPix ao clicar no botão
+document.querySelector('.tecla_pix').onclick = tocaSompix;
+
+
 
 
 
