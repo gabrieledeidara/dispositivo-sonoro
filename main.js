@@ -1,7 +1,9 @@
+//Declaração/criaçãoda função tocaSomCade
 function tocaSomCade() {
     document.querySelector('#som_tecla_cade').play();
 }
-document.querySelectorAll('.tecla');
+//chamada ou invocação da função tocaSomCade ao clicar no botão
+document.querySelector('.tecla_cade').onclick = tocaSomCade;
 <button onclick="tocaSomCade()" class="tecla tecla_Cade">Cade</button>
 document.querySelector('.tecla_cade');
 document.querySelector('.tecla_cade').onclick=function(){
