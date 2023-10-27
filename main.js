@@ -5,8 +5,11 @@ function tocaSomCade() {
 
 //criando a referências constante listaDeTeclas e buscando a classe coletiva .tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
-//chamando a consstante listaDeTeclas e o índice "0" do somCade
-listaDeTeclas[0].onclick = tocaSomCade;
 
+let contador = 0;
+while(contador < 9){
+    listaDeTeclas[contador].onclick = tocaSomCade;
+    contador = contador + 1;
+}
 
 
