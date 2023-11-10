@@ -5,7 +5,7 @@ function tocaSom(idElementoAudio) {
 
 //criando a referências constante listaDeTeclas e buscando a classe coletiva .tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
-
+//criação da repetição "while" e trocado pelo "for"
 for(let contador = 0; contador < listaDeTeclas.length; contador++){
     const  teclas = listaDeTeclas[contador];
     const efeito = teclas.classList[1];
